@@ -18,5 +18,6 @@ alias gpr='gpull --rebase'
 alias gch='git checkout'
 alias gcb='gch -b'
 alias gstash='git stash'
-alias gl='git log'
+alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias gclone='git clone'
+alias gpushall='git push --recurse-submodules=on-demand'
