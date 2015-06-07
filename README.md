@@ -36,4 +36,9 @@ cd ~/.bashrc.d
 gs 
 </code></pre>
 3. Enjoy!
+Enable Mac ls Color run the command
+<pre><code>
+brew install xz coreutils
+gdircolors --print-database > ~/.bashrc.d/darwin/.dir_colors
+</code></pre>
 
