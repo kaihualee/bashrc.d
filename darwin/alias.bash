@@ -1,3 +1,9 @@
+# Emacs Daemon 
+alias emacsserver='emacs --daemon'
+alias emacsclient='emacsclient -c "$@" -a ""'
+
+alias -s bz2='tar -xjvf'
+
 alias c='clear'
 alias workhome='cd ~/git-repo/company-repo'
 #http://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
