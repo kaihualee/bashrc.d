@@ -1,6 +1,6 @@
 # Emacs Daemon 
-alias emacsserver='emacs --daemon'
-alias emacsclient='emacsclient -c "$@" -a ""'
+alias emacserver='emacs --daemon'
+alias edit='emacsclient -c "$@" -a ""'
 
 alias -s bz2='tar -xjvf'
 
