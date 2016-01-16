@@ -51,7 +51,6 @@ alias mount='mount |column -t'
 #8: Command short cuts to save time
 # handy short cuts #
 alias h='history'
-alias j='jobs -l'
 
 #9: Create a new set of commands
 alias path='echo -e ${PATH//:/\\n}'
@@ -89,7 +88,7 @@ alias headerc='curl -I --compress'
  
 #16: Add safety nets
 # do not delete / or prompt if deleting more than 3 files at a time #
-alias rm='rm -I --preserve-root'
+#alias rm='rm -I --preserve-root'
  
 # confirmation #
 alias mv='mv -i'
