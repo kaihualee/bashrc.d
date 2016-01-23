@@ -8,4 +8,5 @@ cooder() {
     python upload.py -o
  fi;
 }
-alias relay01='ssh likaihua@relay01.baidu.com'
+
+[[ -s ~/.relay.conf ]] && alias relay=$(dirname $(readlink -f  ~/.relay.conf))/relay
