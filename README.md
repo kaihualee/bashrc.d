@@ -8,7 +8,7 @@ bashrc.d collects some alias, path, ps1, and editor definitions
 1. Clone the repo to your $HOME directory:
 <pre><code>
 cd ~
-git clone https://github.com/lifuzu/bashrc.d.git .bashrc.d 
+git clone https://github.com/kaihualee/bashrc.d.git .bashrc.d 
 </code></pre>
 2. Append the following content to your ~/.bashrc
 <pre><code>
